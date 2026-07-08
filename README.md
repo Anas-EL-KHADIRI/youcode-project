@@ -145,6 +145,6 @@ This project was completed using knowledge acquired from:
 **Anas El Khadiri**
 
 https://github.com/Anas-EL-KHADIRI
-linkedin.com/in/anas-el-khadiri
+https://linkedin.com/in/anas-el-khadiri
 https://rugale-portfolio.netlify.app
 ---
