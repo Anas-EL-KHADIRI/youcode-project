@@ -108,7 +108,7 @@ A bar chart was created to visualize the **total customer spendings by country**
 
 The visualization includes:
 
-- Colored bars
+- Gradient-colored bars
 - Spending values displayed above each bar
 - Rotated country labels for better readability
 
@@ -116,11 +116,11 @@ The visualization includes:
 
 ##  Learning Resources
 
-This project was completed using knowledge acquired from:
+The following resources were used during the development of this project:
 
 - YouCode Project Brief
-- Pandas Documentation
-- Matplotlib Documentation
+- Official Pandas Documentation
+- Official Matplotlib Documentation
 - Kaggle Learn – Pandas
 - Kaggle Learn – Data Visualization
 
@@ -144,7 +144,8 @@ This project was completed using knowledge acquired from:
 
 **Anas El Khadiri**
 
-- GitHub: https://github.com/Anas-EL-KHADIRI
-- LinkedIn: https://linkedin.com/in/anas-el-khadiri
-- Portfolio: https://rugale-portfolio.netlify.app
----
+- GitHub: [Anas-EL-KHADIRI](https://github.com/Anas-EL-KHADIRI)
+- LinkedIn: [Anas El Khadiri](https://linkedin.com/in/anas-el-khadiri)
+- Portfolio: [Portfolio](https://rugale-portfolio.netlify.app)
+
+
