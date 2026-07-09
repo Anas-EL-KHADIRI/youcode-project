@@ -4,7 +4,7 @@
 
 Sell4All est une entreprise qui vend des vêtements d'occasion en ligne. Elle souhaite utiliser l'intelligence artificielle pour proposer des recommandations de produits à ses clients.
 
-Avant de créer ce système de recommandation, il est nécessaire d'explorer les données disponibles et de les nettoyer afin de préparer un jeu de données fiable.
+Avant de créer ce système de recommandation, il est nécessaire d'explorer les données disponibles et de les nettoyer afin de préparer un jeu de données propre
 
 L'objectif de ce projet est donc d'analyser les données des clients, d'effectuer quelques calculs statistiques, de créer une visualisation et de nettoyer les données avant de les exporter dans un nouveau fichier CSV.
 
@@ -22,7 +22,7 @@ Le notebook permet de :
 - Calculer l'âge médian par pays (bonus)
 - Créer un graphique à barres représentant les dépenses des clients par pays
 - Supprimer les clients ayant dépensé moins de **10 €**
-- Supprimer les lignes dupliquées
+- Supprimer les doublons
 - Exporter un nouveau fichier `dataset-sell4all-cleaned.csv` contenant uniquement les colonnes demandées :
   - Country
   - Age
@@ -35,38 +35,37 @@ Le notebook permet de :
 
 ### Jour 1
 
-- Installation de Python, Jupyter Notebook et des bibliothèques nécessaires
+- Création du dépôt GitHub
+- Création du projet GitHub et des issues
+- Installation de l'environnement de travail
 - Lecture du fichier CSV
 - Affichage des 5 premières lignes
 - Analyse du résumé technique
-- Rédaction des explications demandées
+- Calcul de la moyenne et de la médiane
+- Calcul de l'âge médian par pays (bonus)
+- Création du graphique à barres
+- Nettoyage des données
+- Export du fichier `dataset-sell4all-cleaned.csv`
 
 ### Jour 2
 
-- Calcul de la moyenne et de la médiane
-- Calcul de l'âge médian par pays
-- Création du graphique à barres
-- Amélioration de la présentation du graphique
-- Nettoyage des données
-
-### Jour 3
-
-- Suppression des doublons
-- Export du nouveau fichier CSV
+- Rédaction du README
 - Vérification du notebook
-- Rédaction du README et organisation du dépôt GitHub
+- Correction des derniers détails
+- Amélioration de la documentation
+- Vérification finale avant la soumission
 
 ---
 
 ## Difficultés rencontrées
 
-Pendant la réalisation du projet, quelques difficultés ont été rencontrées.
+Pendant la réalisation du projet, quelques difficultés ont été rencontrées
 
 - Les noms des pays se chevauchaient sur le graphique.
-  - **Solution :** rotation des noms avec `plt.xticks(rotation=90)`.
+  - **Solution :** rotation des noms avec `plt.xticks(rotation=90)`
 
 - Les valeurs affichées au-dessus des barres étaient coupées.
-  - **Solution :** ajout d'une marge avec `plt.margins(y=0.2)`.
+  - **Solution :** ajout d'une marge avec `plt.margins(y=0.2)`
 
 ---
 
@@ -91,7 +90,7 @@ pip install pandas matplotlib notebook
 jupyter notebook
 ```
 
-Ouvrir ensuite le fichier **exploration.ipynb** et exécuter toutes les cellules.
+Ouvrir le fichier exploration.ipynb puis exécuter les cellules dans l'ordre.
 
 ---
 
@@ -112,6 +111,6 @@ youcode-project/
 
 **Anas El Khadiri**
 
-- GitHub : [Anas-EL-KHADIRI](https://github.com/Anas-EL-KHADIRI)
-- LinkedIn : [Anas El Khadiri](https://linkedin.com/in/anas-el-khadiri)
-- Portfolio : [Portfolio](https://rugale-portfolio.netlify.app)
+- GitHub : <https://github.com/Anas-EL-KHADIRI>
+- LinkedIn : <https://linkedin.com/in/anas-el-khadiri>
+- Portfolio : <https://rugale-portfolio.netlify.app>
